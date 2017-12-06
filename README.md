@@ -28,11 +28,11 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
   1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html)
   1. [Atomic classes](#use-atomic-classes-for-styling)
-  1. [Use semantic elements](#make-use-of-semantic-elements)
-  1. [Use HTML tags](#use-html-tags)
-  1. [Use a CSS preprocessors](#use-a-css-preprocessor)
-  1. [Use @extend in SASS](#use-@extent-in-sass)
-  1. [Use rem units](#use-rem-units)
+  1. [Semantic elements](#make-use-of-semantic-elements)
+  1. [HTML tags](#use-html-tags)
+  1. [CSS preprocessors](#use-a-css-preprocessor)
+  1. [@extend in SASS](#use-@extent-in-sass)
+  1. [rem units](#use-rem-units)
   1. [CSS without fixed height and width](#css-without-fixed-height-and-width)
   1. [Use parent item just once in SCSS ](#use-parent-item-just-once-in-scss )
   1. [Before writing a CSS rule think about which element will be affected](#before-writing-a-css-rule-think-about-which-element-will-be-affected)
@@ -40,13 +40,13 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Specific rules](#specific-rules)
   1. [Shorthand properties and values](#use-shorthand-properties-and-values)
   1. [em instead of px for line height](#em-instead-of-px-for-line-height)
-  1. [Use Bootstrap classes as much as possible](#use-bootstrap-classes-as-much-as-possible)
+  1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible)
   1. [Customize your framework properly](#customize-your-framework-properly)
   1. [Don’t overwrite .container width](#dont-overwrite-container-width)
-  1. [Use Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css)
+  1. [Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css)
   1. [Remove .col-md-X and .col-lg-X if .col-sm-X has same value for X](#remove-write-col-md-X-and-col-lg-X-if-col-sm-X-has-same-value-for-X)
   1. [Don’t use .col-xs-12](#don’t-use-col-xs-12)
-  1. [Use normalize.css](#don’t-use-resetcss-use-normalizecss-instead)
+  1. [normalize.css](#don’t-use-resetcss-use-normalizecss-instead)
   1. [Wrapping Up](#wrapping-up)
  
 
@@ -1107,15 +1107,15 @@ Don’t use .col-xs-12 because if no .col-xs-X is assigned, then it will be .col
 </section> 
 ```
 
-#### Don’t use reset.css; use normalize.css instead
+## Don’t use reset.css; use normalize.css instead
 
 If you are using Bootstrap, then normalize.css is already included there, no need to include it twice.
 
-#### Follow guidelines, even if they’re not a best practice
+## Follow guidelines, even if they’re not a best practice
 
 For the sake of consistency, it’s better to always follow the rules and guidelines you started with (whether they’re about naming, code style, or file structure)
 
-#### Wrapping Up
+## Wrapping Up
 
 I hope you have been able to take away something helpful and that you will think more about writing minimal HTML and CSS code with best practices.
 
