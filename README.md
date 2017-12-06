@@ -18,11 +18,14 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [File structure](#file-structure)
   1. [Code validation](#code-validation)
   1. [Use kebab-case](#use-kebab-case-spinal-case)
-  1. [Use meaningful names](#use-meaningful-names-that-can-be-understood-by-anyone-keep-them-short)
-  1. [Remove type attributes](#dont-write-type-attributes-for-stylesheets-and-script-in-html5)
+  1. [Use meaningful, short names](#use-meaningful-short-names)
+  1. [Remove type attributes](#remove-type-attributes)
   1. [Use specific classes](#use-specific-classes-when-necessary)
-  1. [Add a class to the parent element](#add-a-class-to-the-parent-element-if-you-want-to-give-another-style-to-the-same-block)
+  1. [Add a class to the parent element](#add-a-class-to-the-parent-element)
   1. [Drop unites from zero values](#drop-units-from-zero-values)
+  1. [Use an hr tag](#use-an-hr-tag)
+  1. [Use the A > B selector](#use-the-a--b-selector)
+  
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
  
 
@@ -137,9 +140,9 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  
 kebab-case is more readable then camelCase and under_score.
  
-## Use meaningful names that can be understood by anyone, keep them short
+## Use meaningful names
 
-The names of classes should look like .noun-adjective.
+The names of classes should look like .noun-adjective, which can be understood by anyone, keep them short
 
 Try to use common names of classes instead of writing content specific names. It makes code more readable
 
@@ -163,9 +166,9 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
-## Don’t write type attributes for stylesheets and script in HTML5
+## Remove type attributes
 
-They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
+Don’t write type attributes for stylesheets and script in HTML5. They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
 
  ###### Bad Code
 
@@ -203,7 +206,7 @@ section aside h1 span {
 
 While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
 
-## Add a class to the parent element if you want to give another style to the same block
+## Add a class to the parent element
 
 If you need to use the same block but with different styling, try to keep the HTML as untouched as possible. Just add one class to the parent element and apply all new stylings to the children of that class in CSS.
 
@@ -298,9 +301,9 @@ div {
 }
 ```
 
-#### Don’t write border-bottom in CSS if you can add an hr tag
+#### Use an hr tag
 
-Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
+Don’t write border-bottom in CSS if you can add an hr tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
 
 ###### Bad Code
 
