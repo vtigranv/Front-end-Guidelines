@@ -18,7 +18,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [File structure](#file-structure)
   1. [Code validation](#code-validation)
   1. [kebab-case names](#kebab-case-names)
-  1. [Meaningful, short names of classes](#meaningful-short-names-of classes)
+  1. [Meaningful, short names of classes](##meaningful-short-names-of-classes)
   1. [Remove type attributes](#remove-type-attributes)
   1. [Specific classes](#use-specific-classes-when-necessary)
   1. [Add a class to the parent element](#add-a-class-to-the-parent-element)
