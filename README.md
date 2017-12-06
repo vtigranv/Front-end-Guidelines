@@ -123,7 +123,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
   
-### Use alternative text on <img> tags for clean code principles validity
+### Use alternative text on `<img>` tags for clean code principles validity
   
  This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
   
@@ -141,7 +141,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   
  ## Kebab-case names
  
- For names, try to use kebab-case (spinal-case) and not use camelCase, or under_score. Use under_score only when using BEM, though if you are using Bootstrap, it’s better to keep consistent and go with - as a delimiter.
+ For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `under_score`. Use `under_score` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
  
  ###### Bad Code
 
@@ -159,11 +159,11 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
 </section>
 ```
  
-kebab-case is more readable then camelCase and under_score.
+`kebab-case` is more readable then `camelCase` and `under_score`.
  
 ## Meaningful, short names of classes
 
-The names of classes should look like .noun-adjective, which can be understood by anyone, keep them short
+The names of classes should look like `.noun-adjective`, which can be understood by anyone, keep them short
 
 Try to use common names of classes instead of writing content specific names. It makes code more readable
 
@@ -322,9 +322,9 @@ div {
 }
 ```
 
-## Use an hr tag
+## Use an `hr` tag
 
-Don’t write border-bottom in CSS if you can add an hr tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
+Don’t write `border-bottom` in CSS if you can add an `hr` tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
 
 ###### Bad Code
 
@@ -349,7 +349,7 @@ Don’t write border-bottom in CSS if you can add an hr tag. Use the hr tag inst
 
 ## A > B selector
 
-It’s very helpful to use the A > B selector, which applies rules only to direct child(ren), in that case you will not have to reset stylings of all other children which don’t need that styling. For example, it’s very useful when coding nested menus. You will not need to redefine submenu stylings.
+It’s very helpful to use the `A > B` selector, which applies rules only to direct child(ren), in that case you will not have to reset stylings of all other children which don’t need that styling. For example, it’s very useful when coding nested menus. You will not need to redefine submenu stylings.
 
 ###### Bad Code
 
@@ -432,7 +432,7 @@ This will will help search engines and make your code more readable, potentially
 
 ## Avoid using unnecessary wrappers in HTML
 
-Try not to use unnecessary wrapper elements in HTML. Having tons tons of <div> and <span> elements is a thing of the past. Keeping things granular and linear enables you to achieve minimal code (see next point).
+Try not to use unnecessary wrapper elements in HTML. Having tons tons of `<div>` and `<span>` elements is a thing of the past. Keeping things granular and linear enables you to achieve minimal code (see next point).
 
 ###### Bad Code
 
@@ -521,7 +521,7 @@ Using semantics provides a better structure and makes the code and content easie
 
 ## Use HTML5 tags
 
-The new tags give you more expressive freedom and to standardize common elements, which improves the automated processing of documents. Here is a solid list of all elements. I’ve discovered that a lot of developers always use a lot of <div> and <span>, but first please check here which tags fit logically in your context:
+The new tags give you more expressive freedom and to standardize common elements, which improves the automated processing of documents. Here is a solid list of all elements. I’ve discovered that a lot of developers always use a lot of `<div>` and `<span>`, but first please [check here](https://www.tutorialrepublic.com/html-reference/html5-tags.php) which tags fit logically in your context:
  
 ###### Bad Code
 
@@ -561,7 +561,7 @@ There are two syntaxes available for Sass. The first, known as SCSS (Sassy CSS) 
 
 ## Use @extend in SASS
 
-By grouping your selectors, or using @extend in SASS, you should help keep your code DRY (Don’t repeat yourself).
+By grouping your selectors, or using `@extend` in SASS, you should help keep your code DRY (Don’t repeat yourself).
 
 ###### Bad Code
 
@@ -599,7 +599,7 @@ h1 {
 
 ## Use rem units
 
-Use REMs, instead of pixels for sizes and spacings, for example font sizes it make based on the font-size of the root <html> element. They also allow you to quickly scale an entire project by changing the root font size (for example at a certain media query/screen size).
+Use REMs, instead of pixels for sizes and spacings, for example font sizes it make based on the `font-size` of the root `<html>` element. They also allow you to quickly scale an entire project by changing the root font size (for example at a certain media query/screen size).
 
 You will write less code for responsive views:
 
@@ -816,7 +816,7 @@ button {
 }
 ```
 
-## em instead of px for line height
+## `em` instead of `px` for line height
 
 Use em instead of px for line height, it gives us flexibility in our designs and the ability to scale elements up and down instead of being stuck with fixed sizes. We can use this flexibility to make our designs easier to adjust during development and more responsive as well as allow browser users to control the overall scale of sites for maximum readability.
 
@@ -906,9 +906,9 @@ $carousel-indicator-height:      3px !default;
 $carousel-indicator-spacer:      3px !default;
 ```
 
-## Don’t overwrite .container width
+## Don’t overwrite `.container` width
 
-Try to not overwrite .container’s width. Try using a grid system instead, or just change the container width in _variables.scss. If you need to decrease its width, just use max-width instead of width. In that case, .container from Bootstrap will stay untouched in responsive views.
+Try to not overwrite `.container`’s width. Try using a grid system instead, or just change the container width in `_variables.scss`. If you need to decrease its width, just use max-width instead of width. In that case, `.container` from Bootstrap will stay untouched in responsive views.
 
 ###### Bad Code
 
@@ -1043,9 +1043,9 @@ border-example2 {
 }
 ```
 
-## Remove .col-md-X and .col-lg-X if .col-sm-X has same value for X
+## Remove `.col-md-X` and `.col-lg-X` if `.col-sm-X` has same value for X
 
-Don’t write .col-md-X and .col-lg-X if .col-sm-X has same value for X. For example, there is no need to write .col-lg-10 because when we write .col-md-10, we automatically include .col-lg-10 in it
+Don’t write `.col-md-X` and `.col-lg-X` if .col-sm-X has same value for X. For example, there is no need to write `.col-lg-10` because when we write `.col-md-10`, we automatically include `.col-lg-10` in it
 
 ###### Bad Code
 
@@ -1065,9 +1065,9 @@ Don’t write .col-md-X and .col-lg-X if .col-sm-X has same value for X. For exa
 </ul>
 ```
 
-#### Don’t use .col-xs-12
+#### Don’t use `.col-xs-12`
 
-Don’t use .col-xs-12 because if no .col-xs-X is assigned, then it will be .col-xs-12 by default.
+Don’t use `.col-xs-12` because if no .col-xs-X is assigned, then it will be `.col-xs-12` by default.
 
 ###### Bad Code
 
@@ -1107,9 +1107,9 @@ Don’t use .col-xs-12 because if no .col-xs-X is assigned, then it will be .col
 </section> 
 ```
 
-## Don’t use reset.css; use normalize.css instead
+## Don’t use `reset.css`; use `normalize.css` instead
 
-If you are using Bootstrap, then normalize.css is already included there, no need to include it twice.
+If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
 
 ## Follow guidelines, even if they’re not a best practice
 
