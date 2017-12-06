@@ -17,16 +17,37 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
   1. [File structure](#file-structure)
   1. [Code validation](#code-validation)
-  1. [Use kebab-case](#use-kebab-case-spinal-case)
-  1. [Use meaningful, short names](#use-meaningful-short-names)
+  1. [kebab-case names](#kebab-case-names)
+  1. [Meaningful, short names of classes](#meaningful-short-names-of classes)
   1. [Remove type attributes](#remove-type-attributes)
-  1. [Use specific classes](#use-specific-classes-when-necessary)
+  1. [Specific classes](#use-specific-classes-when-necessary)
   1. [Add a class to the parent element](#add-a-class-to-the-parent-element)
   1. [Drop unites from zero values](#drop-units-from-zero-values)
   1. [Use an hr tag](#use-an-hr-tag)
-  1. [Use the A > B selector](#use-the-a--b-selector)
-  
+  1. [A > B selector](#a--b-selector)
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
+  1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html)
+  1. [Atomic classes](#use-atomic-classes-for-styling)
+  1. [Use semantic elements](#make-use-of-semantic-elements)
+  1. [Use HTML tags](#use-html-tags)
+  1. [Use a CSS preprocessors](#use-a-css-preprocessor)
+  1. [Use @extend in SASS](#use-@extent-in-sass)
+  1. [Use rem units](#use-rem-units)
+  1. [CSS without fixed height and width](#css-without-fixed-height-and-width)
+  1. [Use parent item just once in SCSS ](#use-parent-item-just-once-in-scss )
+  1. [Before writing a CSS rule think about which element will be affected](#before-writing-a-css-rule-think-about-which-element-will-be-affected)
+  1. [Look for existing CSS rules and variables before writing new ones](#look-for-existing-CSS-rules-and-variables-before-writing-new-ones)
+  1. [Specific rules](#specific-rules)
+  1. [Shorthand properties and values](#use-shorthand-properties-and-values)
+  1. [em instead of px for line height](#em-instead-of-px-for-line-height)
+  1. [Use Bootstrap classes as much as possible](#use-bootstrap-classes-as-much-as-possible)
+  1. [Customize your framework properly](#customize-your-framework-properly)
+  1. [Don’t overwrite .container width](#dont-overwrite-container-width)
+  1. [Use Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css)
+  1. [Remove .col-md-X and .col-lg-X if .col-sm-X has same value for X](#remove-write-col-md-X-and-col-lg-X-if-col-sm-X-has-same-value-for-X)
+  1. [Don’t use .col-xs-12](#don’t-use-col-xs-12)
+  1. [Use normalize.css](#don’t-use-resetcss-use-normalizecss-instead)
+  1. [Wrapping Up](#wrapping-up)
  
 
 
@@ -118,7 +139,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ```
   
- ## Use kebab-case (spinal-case)
+ ## Kebab-case names
  
  For names, try to use kebab-case (spinal-case) and not use camelCase, or under_score. Use under_score only when using BEM, though if you are using Bootstrap, it’s better to keep consistent and go with - as a delimiter.
  
@@ -140,7 +161,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  
 kebab-case is more readable then camelCase and under_score.
  
-## Use meaningful names
+## Meaningful, short names of classes
 
 The names of classes should look like .noun-adjective, which can be understood by anyone, keep them short
 
@@ -301,7 +322,7 @@ div {
 }
 ```
 
-#### Use an hr tag
+## Use an hr tag
 
 Don’t write border-bottom in CSS if you can add an hr tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
 
@@ -326,7 +347,7 @@ Don’t write border-bottom in CSS if you can add an hr tag. Use the hr tag inst
 // If necessary change hr variable in bootstrap
 ```
 
-#### Use the A > B selector
+## A > B selector
 
 It’s very helpful to use the A > B selector, which applies rules only to direct child(ren), in that case you will not have to reset stylings of all other children which don’t need that styling. For example, it’s very useful when coding nested menus. You will not need to redefine submenu stylings.
 
@@ -378,7 +399,7 @@ ul > li {
 
 Moving on to HTML, the priority will be to ensure a robust and easy to maintain front-end.
 
-### Try to have a front-end that is as markup-based as possible
+## Try to have a front-end that is as markup-based as possible
 
 Make your front-end code markup-based instead of writing too much CSS.
 
@@ -409,7 +430,7 @@ This will will help search engines and make your code more readable, potentially
 </main>
 ```
 
-#### Avoid using unnecessary wrappers in HTML
+## Avoid using unnecessary wrappers in HTML
 
 Try not to use unnecessary wrapper elements in HTML. Having tons tons of <div> and <span> elements is a thing of the past. Keeping things granular and linear enables you to achieve minimal code (see next point).
 
@@ -435,7 +456,7 @@ Try not to use unnecessary wrapper elements in HTML. Having tons tons of <div> a
 </section>
 ```
 
-#### Use atomic classes for styling
+## Use atomic classes for styling
 
 Do not use any custom colors or font sizes (if the color or font size is not in the framework, just add your atomic classes). Atomic classes are simple, single-purpose units of styling. Much like inline styles, Atomic styles only apply a single style declaration.
 
@@ -479,7 +500,7 @@ section > h1 {
 
 Try to keep granular and atomic classes, and use them when needed. Your front-end will become more markup-based as a result.
 
-#### Make use of semantic elements
+## Make use of semantic elements
 
 Using semantics provides a better structure and makes the code and content easier to read.
 
@@ -498,7 +519,7 @@ Using semantics provides a better structure and makes the code and content easie
 <p>This is unnecessary br tag.</p>
 ```
 
-#### Use HTML5 tags
+## Use HTML5 tags
 
 The new tags give you more expressive freedom and to standardize common elements, which improves the automated processing of documents. Here is a solid list of all elements. I’ve discovered that a lot of developers always use a lot of <div> and <span>, but first please check here which tags fit logically in your context:
  
@@ -532,13 +553,13 @@ Bottom line: Learn and use new elements in HTML5. It’s well worth the effort!
 
 When it comes to CSS, it’s hard not to start off with some unoriginal, yet sassy advice:
 
-#### Use a CSS preprocessor
+## Use a CSS preprocessor
 
 [Sass](http://sass-lang.com/) is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
 There are two syntaxes available for Sass. The first, known as SCSS (Sassy CSS) and used throughout this reference, is an extension of the syntax of CSS. The second and older syntax, known as the indented syntax (or sometimes just “Sass”), provides a more concise way of writing CSS.
 
-#### Group your selectors: Use @extend in SASS
+## Use @extend in SASS
 
 By grouping your selectors, or using @extend in SASS, you should help keep your code DRY (Don’t repeat yourself).
 
@@ -576,9 +597,9 @@ h1 {
 }
 ``` 
 
-#### Use rem units instead of pixels in CSS.
+## Use rem units
 
-Use REMs for sizes and spacings, for example font sizes it make based on the font-size of the root <html> element. They also allow you to quickly scale an entire project by changing the root font size (for example at a certain media query/screen size).
+Use REMs, instead of pixels for sizes and spacings, for example font sizes it make based on the font-size of the root <html> element. They also allow you to quickly scale an entire project by changing the root font size (for example at a certain media query/screen size).
 
 You will write less code for responsive views:
 
@@ -616,7 +637,7 @@ p {
 }
 ``` 
 
-#### Try to avoid having fixed height or width in CSS
+## CSS without fixed height and width
 
 Try to avoid having fixed height or width in CSS. Heights can be generated by having inner content + paddings and widths can be defined by a grid system (use nested grid if necessary).
 
@@ -651,7 +672,7 @@ Try to avoid having fixed height or width in CSS. Heights can be generated by ha
 }
 ``` 
 
-#### Make sure to use the parent item just once in SCSS
+## Use parent item just once in SCSS 
 
 When you’re using a CSS preprocessor, and planning to write styling for any section, make sure to use the parent item in CSS just once, and include all child elements and media queries inside its brackets. This will allow you to find and modify the main parent element easily in one place when making changes in future.
 
@@ -697,7 +718,7 @@ When you’re using a CSS preprocessor, and planning to write styling for any se
 }
 ```
 
-#### Think about which elements will be affected before writing a CSS rule
+## Before writing a CSS rule think about which element will be affected
 
 Always think about which elements will be affected before writing any CSS rule. If your changes won’t be common, then write your rules in a way to affect only a certain element and nothing else.
 
@@ -719,7 +740,7 @@ Always think about which elements will be affected before writing any CSS rule. 
 }
 ```
 
-#### Try to look for existing CSS rules and variables before writing new ones
+## Look for existing CSS rules and variables before writing new ones
 
 Always look for existing rules that fit the desired styling, both in custom CSS and in the framework. Only if there is nothing adequate, proceed to writing a new one.
 
@@ -742,7 +763,7 @@ This is particularly important when working with big apps.
 }
 ```
 
-#### Use specific rules
+## Use specific rules
 
 If the background has one property, we specify that property, But if it has different background properties, we can give it one declaration.
 
@@ -763,7 +784,7 @@ If the background has one property, we specify that property, But if it has diff
 }
 ```
 
-#### Use shorthand properties and values
+## Use shorthand properties and values
 
 Do your best to use more shorthand properties and values. Using a shorthand property, you can write concise and, more often than not, much more readable style sheets, saving precious time and energy.
 
@@ -795,9 +816,9 @@ button {
 }
 ```
 
-#### Use em instead of px for line height
+## em instead of px for line height
 
-Using em and px units gives us flexibility in our designs and the ability to scale elements up and down instead of being stuck with fixed sizes. We can use this flexibility to make our designs easier to adjust during development and more responsive as well as allow browser users to control the overall scale of sites for maximum readability.
+Use em instead of px for line height, it gives us flexibility in our designs and the ability to scale elements up and down instead of being stuck with fixed sizes. We can use this flexibility to make our designs easier to adjust during development and more responsive as well as allow browser users to control the overall scale of sites for maximum readability.
 
 
 ###### Bad Code
@@ -818,7 +839,7 @@ p {
 }
 ```
 
-#### Use Bootstrap classes as much as possible
+## Use Bootstrap classes as much as possible
 
 While this rule could apply to UI frameworks in general, I am using [Bootstrap](http://getbootstrap.com/) as an example, because it is the world’s most popular front-end component library.
 
@@ -852,7 +873,7 @@ Bootstrap allows you to use a lot of ready classes, making your work easier. Try
 </section>
 ```
 
-#### Customize your framework properly
+## Customize your framework properly
 
 Bootstrap relies on the [variables.scss](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss) file, which allows you to easily configure and customize your front-end without writing a single line of code. Otherwise, if you are going to manually write all the customizations on your own, you’d be better not to use a framework at all.
 
@@ -885,7 +906,7 @@ $carousel-indicator-height:      3px !default;
 $carousel-indicator-spacer:      3px !default;
 ```
 
-#### Don’t overwrite .container width
+## Don’t overwrite .container width
 
 Try to not overwrite .container’s width. Try using a grid system instead, or just change the container width in _variables.scss. If you need to decrease its width, just use max-width instead of width. In that case, .container from Bootstrap will stay untouched in responsive views.
 
@@ -910,7 +931,7 @@ Try to not overwrite .container’s width. Try using a grid system instead, or j
 }
 ```
 
-#### Use Bootstrap 4 classes and write less CSS
+## Use Bootstrap 4 classes and write less CSS
 
 Start using Bootstrap 4, even though it’s in beta. It includes many new classes which will help you create layouts faster, especially Flexbox and spacers
 
@@ -1022,7 +1043,9 @@ border-example2 {
 }
 ```
 
-#### Don’t write .col-md-X and .col-lg-X if .col-sm-X has same value for X. For example, there is no need to write .col-lg-10 because when we write .col-md-10, we automatically include .col-lg-10 in it
+## Remove .col-md-X and .col-lg-X if .col-sm-X has same value for X
+
+Don’t write .col-md-X and .col-lg-X if .col-sm-X has same value for X. For example, there is no need to write .col-lg-10 because when we write .col-md-10, we automatically include .col-lg-10 in it
 
 ###### Bad Code
 
