@@ -16,14 +16,78 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 ## Table of Contents
 
   1. [File structure](#file-structure)
-  1. [Code validation](#code-validatoin)
+  1. [Code validation](#code-validation)
 
 
 
 ## File Structure
 
-[![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)]
+If you are going to develop a big app, then you need to take care of the file structure. It can, or rather should, look like this:
+
+![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)
 
 ## Code validation
 
 Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators
+
+###### Bad Code
+
+  ```html
+  <figure>
+    <div>
+      <img src="demo.jpg" alt="">
+      <figcaption>
+        <h2>Hello world</h2>
+      </figcaption>
+    </div>
+  </figure>
+
+  <picture>
+    <source src="demo.webp" type="image/webp">
+    <img src="demo.jpg" alt="">
+  </picture>
+
+  <details>
+    <header>
+      <summary>Expand details</summary>
+    </header>
+    <p>All content goes here</p>
+  </details>
+  ```
+  ```css
+  p {
+    font: 400 inherit/1.125 serif;
+  }
+  ```
+
+###### Good Code
+
+  ```html
+  <figure>
+    <img src="demo.jpg" alt="">
+    <!-- figcaption should be child of element figure element, not div -->
+    <figcaption>
+      <h2>Hello world</h2>
+    </figcaption>
+  </figure>
+
+  <picture>
+    <!-- source should have srcset attribute -->
+    <source srcset="demo.webp" type="image/webp">
+    <img src="demo.jpg" alt="">
+  </picture>
+
+  <details>
+    <!-- summary is not allowed as child of header -->
+    <summary>Expand details</summary>
+    <p>All content goes here</p>
+  </details>
+  ```
+  ```css
+  p {
+    font-weight: 400;
+    font-size: inherit;
+    line-height: 1.125;
+    font-family: serif;
+  }
+  ```
