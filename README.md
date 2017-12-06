@@ -20,7 +20,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Use kebab-case](#use-kebab-case-spinal-case)
   1. [Use meaningful names](#use-meaningful-names-that-can-be-understood-by-anyone-keep-them-short)
   1. [Remove type attributes](#dont-write-type-attributes-for-stylesheets-and-script-in-html5)
-  1. [Use specific classes] (#use-specific-classes-when-necessary)
+  1. [Use specific classes](#use-specific-classes-when-necessary)
   1. [Add a class to the parent element](#add-a-class-to-the-parent-element-if-you-want-to-give-another-style-to-the-same-block)
   1. [Drop unites from zero values](#drop-units-from-zero-values)
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
