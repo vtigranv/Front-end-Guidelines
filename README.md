@@ -17,8 +17,14 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
   1. [File structure](#file-structure)
   1. [Code validation](#code-validation)
-  1. [How to Write Clean HTML](#how-to-write-clean-html)
-  1. [CSS: Clean Code and Preprocessors](#css:-clean-code-and-preprocessors)
+  1. [Use kebab-case](#use-kebab-case-spinal-case)
+  1. [Use meaningful names](#use-meaningful-names-that-can-be-understood-by-anyone-keep-them-short)
+  1. [Remove type attributes](#dont-write-type-attributes-for-stylesheets-and-script-in-html5)
+  1. [Use specific classes (#use-specific-classes-when-necessary)]
+  1. [Add a class to the parent element](#add-a-class-to-the-parent-element-if-you-want-to-give-another-style-to-the-same-block)
+  1. [Drop unites from zero values](#drop-units-from-zero-values)
+  1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
+ 
 
 
 ## File Structure
@@ -93,7 +99,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
   
-#### Use alternative text on <img> tags for clean code principles validity
+### Use alternative text on <img> tags for clean code principles validity
   
  This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
   
@@ -109,7 +115,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ```
   
- #### Use kebab-case (spinal-case)
+ ## Use kebab-case (spinal-case)
  
  For names, try to use kebab-case (spinal-case) and not use camelCase, or under_score. Use under_score only when using BEM, though if you are using Bootstrap, it’s better to keep consistent and go with - as a delimiter.
  
@@ -131,7 +137,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  
 kebab-case is more readable then camelCase and under_score.
  
-#### Use meaningful names that can be understood by anyone, keep them short
+## Use meaningful names that can be understood by anyone, keep them short
 
 The names of classes should look like .noun-adjective.
 
@@ -157,7 +163,7 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
-#### Don’t write type attributes for stylesheets and script in HTML5
+## Don’t write type attributes for stylesheets and script in HTML5
 
 They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
 
@@ -175,7 +181,7 @@ They are not required with HTML5, but are required by W3C standards in HTML4/XHT
 <script src="app.js"></script>
 ```
 
-#### Use specific classes when necessary
+## Use specific classes when necessary
 
 Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
 
@@ -197,7 +203,7 @@ section aside h1 span {
 
 While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
 
-#### Add a class to the parent element if you want to give another style to the same block
+## Add a class to the parent element if you want to give another style to the same block
 
 If you need to use the same block but with different styling, try to keep the HTML as untouched as possible. Just add one class to the parent element and apply all new stylings to the children of that class in CSS.
 
@@ -268,7 +274,7 @@ article {
 }
 ```
 
-#### Drop units from zero values
+## Drop units from zero values
 
 Adding the unit is unnecessary and provides no additional value. There is no difference between 0px, 0em, 0%, or any other zero-value. The units aren’t important because the value is still zero.
 
@@ -369,7 +375,7 @@ ul > li {
 
 Moving on to HTML, the priority will be to ensure a robust and easy to maintain front-end.
 
-#### Try to have a front-end that is as markup-based as possible
+### Try to have a front-end that is as markup-based as possible
 
 Make your front-end code markup-based instead of writing too much CSS.
 
