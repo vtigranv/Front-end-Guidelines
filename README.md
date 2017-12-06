@@ -28,7 +28,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)
   1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html)
   1. [Atomic classes](#use-atomic-classes-for-styling)
-  1. [Semantic elements](#make-use-of-semantic-elements)![TopicHTML](https://img.shields.io/badge/Topic-HTML-%23E44D26.svg)
+  1. [Semantic elements](#make-use-of-semantic-elements)  ![TopicHTML](https://img.shields.io/badge/Topic-HTML-%23E44D26.svg)
   1. [HTML5 tags](#use-html5-tags)
   1. [CSS preprocessors](#use-a-css-preprocessor)
   1. [@extend in SASS](#use-extend-in-sass)
