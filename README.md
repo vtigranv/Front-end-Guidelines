@@ -140,8 +140,9 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
 
- # Naming
   **[Back to top](#table-of-contents)**
+
+ # Naming
   
  ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
  
