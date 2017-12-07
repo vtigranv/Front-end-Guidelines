@@ -64,7 +64,7 @@ If you are going to develop a big app, then you need to take care of the file st
 
 ![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)
 
-__
+###
  **[Back to top](#table-of-contents)**
  
  ## W3C
@@ -151,6 +151,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
  
+ ###
  **[Back to top](#table-of-contents)**
 
  ## Naming
