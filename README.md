@@ -25,7 +25,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Add a class to the parent element](#add-a-class-to-the-parent-element)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
   1. [Drop unites from zero values](#drop-units-from-zero-values)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
   1. [Use an hr tag](#use-an-hr-tag)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [CSS without fixed height and width](#css-without-fixed-height-and-width)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+  1. [CSS without fixed height and width](#css-without-fixed-height-and-width)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Atomic classes](#use-atomic-classes-for-styling)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
