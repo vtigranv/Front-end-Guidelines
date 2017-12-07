@@ -20,12 +20,12 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
   1. [kebab-case names](#kebab-case-names--)  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
   1. [Meaningful, short names of classes](#meaningful-short-names-of-classes--)  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
-  1. [Remove type attributes](#remove-type-attributes--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [Specific classes](#use-specific-classes-when-necessary--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [Add a class to the parent element](#add-a-class-to-the-parent-element--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [Drop unites from zero values](#drop-units-from-zero-values--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [Use an hr tag](#use-an-hr-tag--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
-  1. [CSS without fixed height and width](#css-without-fixed-height-and-width--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+  1. [Remove type attributes](#remove-type-attributes--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  1. [Specific classes](#use-specific-classes-when-necessary--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  1. [Add a class to the parent element](#add-a-class-to-the-parent-element--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  1. [Drop unites from zero values](#drop-units-from-zero-values--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  1. [Use an hr tag](#use-an-hr-tag--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  1. [CSS without fixed height and width](#css-without-fixed-height-and-width--)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible--)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html--)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Atomic classes](#use-atomic-classes-for-styling--)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
@@ -188,7 +188,7 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
-## Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Don’t write type attributes for stylesheets and script in HTML5. They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
 
@@ -206,7 +206,7 @@ Don’t write type attributes for stylesheets and script in HTML5. They are not 
 <script src="app.js"></script>
 ```
 
-## Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
 
@@ -228,7 +228,7 @@ section aside h1 span {
 
 While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
 
-## Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 If you need to use the same block but with different styling, try to keep the HTML as untouched as possible. Just add one class to the parent element and apply all new stylings to the children of that class in CSS.
 
@@ -299,7 +299,7 @@ article {
 }
 ```
 
-## Drop units from zero values  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## Drop units from zero values  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Adding the unit is unnecessary and provides no additional value. There is no difference between 0px, 0em, 0%, or any other zero-value. The units aren’t important because the value is still zero.
 
@@ -323,7 +323,7 @@ div {
 }
 ```
 
-## Use an `hr` tag  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## Use an `hr` tag  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
  
 Don’t write `border-bottom` in CSS if you can add an `hr` tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
 
@@ -348,7 +348,7 @@ Don’t write `border-bottom` in CSS if you can add an `hr` tag. Use the hr tag 
 // If necessary change hr variable in bootstrap
 ```
 
-## CSS without fixed height and width  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
+## CSS without fixed height and width  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Try to avoid having fixed height or width in CSS. Heights can be generated by having inner content + paddings and widths can be defined by a grid system (use nested grid if necessary).
 
