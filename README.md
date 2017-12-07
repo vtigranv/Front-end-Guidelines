@@ -140,9 +140,8 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
 
-  **[Back to top](#table-of-contents)**
-
  # Naming
+ **[Back to top](#table-of-contents)**
   
  ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
  
@@ -192,7 +191,7 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
- # Code styling
+# Code styling
   
 **[Back to top](#table-of-contents)**
 
