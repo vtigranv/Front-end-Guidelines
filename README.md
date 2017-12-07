@@ -65,7 +65,7 @@ If you are going to develop a big app, then you need to take care of the file st
 ![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)
 
 
- # Code validation
+ # W3C
  **[Back to top](#table-of-contents)**
 
 ### Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
