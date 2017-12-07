@@ -17,6 +17,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
   1. [File structure](#file-structure)
   1. [Code validation](#code-validation)  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+  1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity)  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
   1. [kebab-case names](#kebab-case-names)  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
   1. [Meaningful, short names of classes](#meaningful-short-names-of-classes)  !![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
   1. [Remove type attributes](#remove-type-attributes)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-1477d4.svg)
