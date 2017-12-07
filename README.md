@@ -192,6 +192,10 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
+ # Code styling
+  
+**[Back to top](#table-of-contents)**
+
 ### Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Don’t write type attributes for stylesheets and script in HTML5. They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
