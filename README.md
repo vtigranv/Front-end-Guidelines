@@ -15,7 +15,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
 ## Table of Contents
 
-  1. [File structure](#file-structure--)
+  1. [File structure](#file-structure)
   1. [W3C](#w3c)  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
   1. [Code validation](#code-validation--)
   1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)
