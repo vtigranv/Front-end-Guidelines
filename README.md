@@ -571,7 +571,6 @@ Bottom line: Learn and use new elements in HTML5. It’s well worth the effort!
 **[Back to top](#table-of-contents)**
 # CSS
 
-#
 ## CSS: Clean Code and Preprocessors
 
 When it comes to CSS, it’s hard not to start off with some unoriginal, yet sassy advice:
@@ -840,7 +839,6 @@ p {
 **[Back to top](#table-of-contents)**
 # Bootstrap
   
-#
 ## Use Bootstrap classes as much as possible  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 While this rule could apply to UI frameworks in general, I am using [Bootstrap](http://getbootstrap.com/) as an example, because it is the world’s most popular front-end component library.
