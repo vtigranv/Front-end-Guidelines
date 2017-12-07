@@ -42,7 +42,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [em instead of px for line height](#em-instead-of-px-for-line-height)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Use parent item just once in SCSS ](#use-parent-item-just-once-in-scss )  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
-  1. [Customize your framework properly](#customize-your-framework-properly)
+  1. [Customize your framework properly](#customize-your-framework-properly)  [Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Don’t overwrite .container width](#dont-overwrite-container-width)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Remove .col-md-X and .col-lg-X if .col-sm-X has same value for X](#remove-col-md-x-and-col-lg-x-if-col-sm-x-has-same-value-for-x)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
