@@ -589,7 +589,7 @@ ul > li {
 }
 ```
 
-## Use a CSS preprocessor  
+## Use a CSS preprocessor  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 [Sass](http://sass-lang.com/) is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
