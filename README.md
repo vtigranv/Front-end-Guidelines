@@ -200,14 +200,13 @@ Try to use common names of classes instead of writing content specific names. It
   <div class="bg-white"></div>
 </div>
 ```
-----
 
 **[Back to top](#table-of-contents)**
-#
+
 # Code styling
  
 
-### Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+## Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Don’t write type attributes for stylesheets and script in HTML5. They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
 
@@ -225,10 +224,9 @@ Don’t write type attributes for stylesheets and script in HTML5. They are not 
 <script src="app.js"></script>
 ```
 
-----
+#
 
-
-### Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+## Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
 
@@ -250,7 +248,7 @@ section aside h1 span {
 
 While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
 
-----
+#
 
 
 ### Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
