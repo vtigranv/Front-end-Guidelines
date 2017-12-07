@@ -62,7 +62,7 @@ If you are going to develop a big app, then you need to take care of the file st
  # Code validation
  **[Back to top](#table-of-contents)**
 
-## Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+### Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
 
 Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators
 
