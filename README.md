@@ -857,7 +857,7 @@ Bootstrap allows you to use a lot of ready classes, making your work easier. Try
 </section>
 ```
 
-### Use parent item just once in SCSS ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+### Use parent item just once in SCSS  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 When you’re using a CSS preprocessor, and planning to write styling for any section, make sure to use the parent item in CSS just once, and include all child elements and media queries inside its brackets. This will allow you to find and modify the main parent element easily in one place when making changes in future.
 
