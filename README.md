@@ -31,7 +31,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Atomic classes](#use-atomic-classes-for-styling)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Semantic elements](#make-use-of-semantic-elements)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [HTML5 tags](#use-html5-tags)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
-  1. [CSS preprocessors](#use-a-css-preprocessor)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+  1. [CSS preprocessors](#use-a-css-preprocessor)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [Group, selectors or @extend in SASS](#use-extend-in-sass-or-group-selectors)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [rem units](#use-rem-units) ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [CSS without fixed height and width](#css-without-fixed-height-and-width)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
