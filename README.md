@@ -201,11 +201,12 @@ Try to use common names of classes instead of writing content specific names. It
 </div>
 ```
 
+----
+
 # Code styling
   
 **[Back to top](#table-of-contents)**
 
-----
 
 ### Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
