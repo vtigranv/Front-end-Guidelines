@@ -610,7 +610,7 @@ ul > li {
 
 There are two syntaxes available for Sass. The first, known as SCSS (Sassy CSS) and used throughout this reference, is an extension of the syntax of CSS. The second and older syntax, known as the indented syntax (or sometimes just “Sass”), provides a more concise way of writing CSS.
 
-## Use @extend in SASS or grouping selectors  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+### Use @extend in SASS or grouping selectors  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 By grouping your selectors, or using `@extend` in SASS, you should help keep your code DRY (Don’t repeat yourself).
 
