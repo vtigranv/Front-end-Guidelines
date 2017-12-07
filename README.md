@@ -140,11 +140,11 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
  
- 
+ ----
+
  **[Back to top](#table-of-contents)**
 
  ## Naming
-----
 
  
  
