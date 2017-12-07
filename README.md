@@ -139,16 +139,10 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  ```html
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
- 
 
- **[Back to top](#table-of-contents)**
-
- # Naming
-
- 
- 
+ # Naming   **[Back to top](#table-of-contents)**
   
- ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+ ## Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
  
  For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `under_score`. Use `under_score` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
  
