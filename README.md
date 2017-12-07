@@ -576,7 +576,6 @@ Bottom line: Learn and use new elements in HTML5. It’s well worth the effort!
 
 When it comes to CSS, it’s hard not to start off with some unoriginal, yet sassy advice:
 
-#
 ## A > B selector  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 It’s very helpful to use the `A > B` selector, which applies rules only to direct child(ren), in that case you will not have to reset stylings of all other children which don’t need that styling. For example, it’s very useful when coding nested menus. You will not need to redefine submenu stylings.
