@@ -1127,7 +1127,7 @@ Don’t use `.col-xs-12` because if no .col-xs-X is assigned, then it will be `.
 </section> 
 ```
 
-### Don’t use `reset.css`; use `normalize.css` instead
+## Don’t use `reset.css`; use `normalize.css` instead
 
 If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
 
