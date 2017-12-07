@@ -64,11 +64,11 @@ If you are going to develop a big app, then you need to take care of the file st
 
 ![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)
 
-
- # W3C
  **[Back to top](#table-of-contents)**
+ 
+ # W3C
 
-### Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+## Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
 
 Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators
 
@@ -133,8 +133,8 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
     font-family: serif;
   }
   ```
-  
-### Use alternative text on `<img>` tags for clean code principles validity  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+#  
+## Use alternative text on `<img>` tags for clean code principles validity  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
   
  This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
   
@@ -149,11 +149,12 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  ```html
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
+ 
+ **[Back to top](#table-of-contents)**
 
  # Naming
- **[Back to top](#table-of-contents)**
   
- ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+ ## Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
  
  For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `under_score`. Use `under_score` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
  
@@ -175,7 +176,8 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  
 `kebab-case` is more readable then `camelCase` and `under_score`.
  
-### Meaningful, short names of classes  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+#
+## Meaningful, short names of classes  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
 
 The names of classes should look like `.noun-adjective`, which can be understood by anyone, keep them short
 
@@ -202,10 +204,9 @@ Try to use common names of classes instead of writing content specific names. It
 ```
 
 **[Back to top](#table-of-contents)**
-
 # Code styling
  
-
+#
 ## Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Don’t write type attributes for stylesheets and script in HTML5. They are not required with HTML5, but are required by W3C standards in HTML4/XHTML.
@@ -225,7 +226,6 @@ Don’t write type attributes for stylesheets and script in HTML5. They are not 
 ```
 
 #
-
 ## Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
@@ -249,9 +249,7 @@ section aside h1 span {
 While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
 
 #
-
-
-### Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+## Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 If you need to use the same block but with different styling, try to keep the HTML as untouched as possible. Just add one class to the parent element and apply all new stylings to the children of that class in CSS.
 
@@ -322,10 +320,8 @@ article {
 }
 ```
 
-----
-
-
-### Drop units from zero values  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+#
+## Drop units from zero values  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Adding the unit is unnecessary and provides no additional value. There is no difference between 0px, 0em, 0%, or any other zero-value. The units aren’t important because the value is still zero.
 
@@ -349,7 +345,8 @@ div {
 }
 ```
 
-### Use an `hr` tag  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+#
+## Use an `hr` tag  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
  
 Don’t write `border-bottom` in CSS if you can add an `hr` tag. Use the hr tag instead of writing a new selector and adding border styles in CSS. It makes the code more markup-based, and that’s what we’re going for.
 
@@ -374,7 +371,8 @@ Don’t write `border-bottom` in CSS if you can add an `hr` tag. Use the hr tag 
 // If necessary change hr variable in bootstrap
 ```
 
-### CSS without fixed height and width  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+#
+## CSS without fixed height and width  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Try to avoid having fixed height or width in CSS. Heights can be generated by having inner content + paddings and widths can be defined by a grid system (use nested grid if necessary).
 
@@ -409,15 +407,15 @@ Try to avoid having fixed height or width in CSS. Heights can be generated by ha
 }
 ``` 
 
- # HTML
-  
 **[Back to top](#table-of-contents)**
-
+# HTML
+  
 ## How to Write Clean HTML
 
 Moving on to HTML, the priority will be to ensure a robust and easy to maintain front-end.
 
-### Try to have a front-end that is as markup-based as possible  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+#
+## Try to have a front-end that is as markup-based as possible  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
 
 Make your front-end code markup-based instead of writing too much CSS.
 
@@ -448,7 +446,8 @@ This will will help search engines and make your code more readable, potentially
 </main>
 ```
 
-### Avoid using unnecessary wrappers in HTML  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+#
+## Avoid using unnecessary wrappers in HTML  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
 
 Try not to use unnecessary wrapper elements in HTML. Having tons tons of `<div>` and `<span>` elements is a thing of the past. Keeping things granular and linear enables you to achieve minimal code (see next point).
 
@@ -474,7 +473,8 @@ Try not to use unnecessary wrapper elements in HTML. Having tons tons of `<div>`
 </section>
 ```
 
-### Use atomic classes for styling  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+#
+## Use atomic classes for styling  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
 
 Do not use any custom colors or font sizes (if the color or font size is not in the framework, just add your atomic classes). Atomic classes are simple, single-purpose units of styling. Much like inline styles, Atomic styles only apply a single style declaration.
 
@@ -518,7 +518,8 @@ section > h1 {
 
 Try to keep granular and atomic classes, and use them when needed. Your front-end will become more markup-based as a result.
 
-### Make use of semantic elements  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+#
+## Make use of semantic elements  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
 
 Using semantics provides a better structure and makes the code and content easier to read.
 
@@ -537,7 +538,8 @@ Using semantics provides a better structure and makes the code and content easie
 <p>This is unnecessary br tag.</p>
 ```
 
-### Use HTML5 tags  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+#
+## Use HTML5 tags  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
 
 The new tags give you more expressive freedom and to standardize common elements, which improves the automated processing of documents. Here is a solid list of all elements. I’ve discovered that a lot of developers always use a lot of `<div>` and `<span>`, but first please [check here](https://www.tutorialrepublic.com/html-reference/html5-tags.php) which tags fit logically in your context:
  
@@ -567,15 +569,16 @@ The new tags give you more expressive freedom and to standardize common elements
 
 Bottom line: Learn and use new elements in HTML5. It’s well worth the effort!
 
- # CSS
-  
 **[Back to top](#table-of-contents)**
+# CSS
 
+#
 ## CSS: Clean Code and Preprocessors
 
 When it comes to CSS, it’s hard not to start off with some unoriginal, yet sassy advice:
 
-### A > B selector  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## A > B selector  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 It’s very helpful to use the `A > B` selector, which applies rules only to direct child(ren), in that case you will not have to reset stylings of all other children which don’t need that styling. For example, it’s very useful when coding nested menus. You will not need to redefine submenu stylings.
 
@@ -623,13 +626,15 @@ ul > li {
 }
 ```
 
-### Use a CSS preprocessor  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Use a CSS preprocessor  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 [Sass](http://sass-lang.com/) is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
 There are two syntaxes available for Sass. The first, known as SCSS (Sassy CSS) and used throughout this reference, is an extension of the syntax of CSS. The second and older syntax, known as the indented syntax (or sometimes just “Sass”), provides a more concise way of writing CSS.
 
-### Use @extend in SASS or group selectors  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Use @extend in SASS or group selectors  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 By grouping your selectors, or using `@extend` in SASS, you should help keep your code DRY (Don’t repeat yourself).
 
@@ -667,7 +672,8 @@ h1 {
 }
 ``` 
 
-### Use rem units  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Use rem units  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 Use REMs, instead of pixels for sizes and spacings, for example font sizes it make based on the `font-size` of the root `<html>` element. They also allow you to quickly scale an entire project by changing the root font size (for example at a certain media query/screen size).
 
@@ -707,7 +713,8 @@ p {
 }
 ``` 
 
-### Before writing a CSS rule think about which element will be affected  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Before writing a CSS rule think about which element will be affected  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 Always think about which elements will be affected before writing any CSS rule. If your changes won’t be common, then write your rules in a way to affect only a certain element and nothing else.
 
@@ -729,7 +736,8 @@ Always think about which elements will be affected before writing any CSS rule. 
 }
 ```
 
-### Look for existing CSS rules and variables before writing new ones  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Look for existing CSS rules and variables before writing new ones  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 Always look for existing rules that fit the desired styling, both in custom CSS and in the framework. Only if there is nothing adequate, proceed to writing a new one.
 
@@ -752,7 +760,8 @@ This is particularly important when working with big apps.
 }
 ```
 
-### Use specific rules  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Use specific rules  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 If the background has one property, we specify that property, But if it has different background properties, we can give it one declaration.
 
@@ -773,7 +782,8 @@ If the background has one property, we specify that property, But if it has diff
 }
 ```
 
-### Use shorthand properties and values  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## Use shorthand properties and values  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 Do your best to use more shorthand properties and values. Using a shorthand property, you can write concise and, more often than not, much more readable style sheets, saving precious time and energy.
 
@@ -805,7 +815,8 @@ button {
 }
 ```
 
-### `em` instead of `px` for line height  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+#
+## `em` instead of `px` for line height  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 Use em instead of px for line height, it gives us flexibility in our designs and the ability to scale elements up and down instead of being stuck with fixed sizes. We can use this flexibility to make our designs easier to adjust during development and more responsive as well as allow browser users to control the overall scale of sites for maximum readability.
 
@@ -828,11 +839,11 @@ p {
 }
 ```
 
- # Bootstrap
-  
 **[Back to top](#table-of-contents)**
-
-### Use Bootstrap classes as much as possible  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+# Bootstrap
+  
+#
+## Use Bootstrap classes as much as possible  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 While this rule could apply to UI frameworks in general, I am using [Bootstrap](http://getbootstrap.com/) as an example, because it is the world’s most popular front-end component library.
 
@@ -866,7 +877,8 @@ Bootstrap allows you to use a lot of ready classes, making your work easier. Try
 </section>
 ```
 
-### Use parent item just once in SCSS  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Use parent item just once in SCSS  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 When you’re using a CSS preprocessor, and planning to write styling for any section, make sure to use the parent item in CSS just once, and include all child elements and media queries inside its brackets. This will allow you to find and modify the main parent element easily in one place when making changes in future.
 
@@ -912,7 +924,8 @@ When you’re using a CSS preprocessor, and planning to write styling for any se
 }
 ```
 
-### Customize your framework properly  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Customize your framework properly  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 Bootstrap relies on the [variables.scss](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss) file, which allows you to easily configure and customize your front-end without writing a single line of code. Otherwise, if you are going to manually write all the customizations on your own, you’d be better not to use a framework at all.
 
@@ -945,7 +958,8 @@ $carousel-indicator-height:      3px !default;
 $carousel-indicator-spacer:      3px !default;
 ```
 
-### Don’t overwrite `.container` width  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Don’t overwrite `.container` width  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 Try to not overwrite `.container`’s width. Try using a grid system instead, or just change the container width in `_variables.scss`. If you need to decrease its width, just use max-width instead of width. In that case, `.container` from Bootstrap will stay untouched in responsive views.
 
@@ -970,7 +984,8 @@ Try to not overwrite `.container`’s width. Try using a grid system instead, or
 }
 ```
 
-### Use Bootstrap 4 classes and write less CSS  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Use Bootstrap 4 classes and write less CSS  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 Start using Bootstrap 4, even though it’s in beta. It includes many new classes which will help you create layouts faster, especially Flexbox and spacers
 
@@ -1082,7 +1097,8 @@ border-example2 {
 }
 ```
 
-### Remove `.col-md-X` and `.col-lg-X` if `.col-sm-X` has same value for X  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Remove `.col-md-X` and `.col-lg-X` if `.col-sm-X` has same value for X  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 Don’t write `.col-md-X` and `.col-lg-X` if .col-sm-X has same value for X. For example, there is no need to write `.col-lg-10` because when we write `.col-md-10`, we automatically include `.col-lg-10` in it
 
@@ -1104,7 +1120,8 @@ Don’t write `.col-md-X` and `.col-lg-X` if .col-sm-X has same value for X. For
 </ul>
 ```
 
-#### Don’t use `.col-xs-12`  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+#
+## Don’t use `.col-xs-12`  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
 
 Don’t use `.col-xs-12` because if no .col-xs-X is assigned, then it will be `.col-xs-12` by default.
 
@@ -1146,14 +1163,17 @@ Don’t use `.col-xs-12` because if no .col-xs-X is assigned, then it will be `.
 </section> 
 ```
 
+#
 ## Don’t use `reset.css`; use `normalize.css` instead
 
 If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
 
+#
 ## Follow guidelines, even if they’re not a best practice
 
 For the sake of consistency, it’s better to always follow the rules and guidelines you started with (whether they’re about naming, code style, or file structure)
 
+#
 ## Wrapping Up
 
 I hope you have been able to take away something helpful and that you will think more about writing minimal HTML and CSS code with best practices.
