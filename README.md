@@ -41,7 +41,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Specific rules](#use-specific-rules)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [Shorthand properties and values](#use-shorthand-properties-and-values)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [em instead of px for line height](#em-instead-of-px-for-line-height)  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
-  1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible)
+  1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Customize your framework properly](#customize-your-framework-properly)
   1. [Don’t overwrite .container width](#dont-overwrite-container-width)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
