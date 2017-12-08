@@ -58,7 +58,6 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
  
  
  ###
-**[Back to top](#table-of-contents)**
 ## Code styling
 
 ## File Structure
