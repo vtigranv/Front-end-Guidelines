@@ -71,7 +71,7 @@ If you are going to develop a big app, then you need to take care of the file st
  
  ## W3C
 
-### Code validation  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+### Code validation  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators
 
@@ -137,7 +137,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
 ----
-### Use alternative text on `<img>` tags for clean code principles validity  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+### Use alternative text on `<img>` tags for clean code principles validity  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   
  This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
   
@@ -158,7 +158,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
 
  ## Naming
   
- ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+ ### Kebab-case names  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
  
  For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `snake_case`. Use `snake_case` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
  
@@ -181,7 +181,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
 `kebab-case` is more readable then `camelCase` and `snake_case`.
  
 ----
-### Meaningful, short names of classes  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+### Meaningful, short names of classes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 The names of classes should look like `.noun-adjective`, which can be understood by anyone, keep them short
 
