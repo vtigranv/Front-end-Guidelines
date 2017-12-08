@@ -217,7 +217,7 @@ Don’t write type attributes for stylesheets and script in HTML5. They are not 
 
 ```html
 <link type="text/css" rel="stylesheet" href="../styles.css">
-<script type="text/javascript" src="..//main.js"></script>
+<script type="text/javascript" src="../main.js"></script>
 ```
   
  ###### Good Code
