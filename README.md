@@ -108,7 +108,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   ```html
   <figure>
     <img src="demo.jpg" alt="">
-    <!-- figcaption should be child of element figure element, not div -->
+    <!-- figcaption should be child of figure element, not div -->
     <figcaption>
       <h2>Hello world</h2>
     </figcaption>
