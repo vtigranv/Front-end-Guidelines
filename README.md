@@ -158,7 +158,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   
  ### Kebab-case names  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
  
- For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `under_score`. Use `under_score` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
+ For names, try to use `kebab-case (spinal-case)` and not use `camelCase`, or `snake_case`. Use `snake_case` only when using [BEM](https://en.bem.info/), though if you are using Bootstrap, it’s better to keep consistent and go with `-` as a delimiter.
  
  ###### Bad Code
 
@@ -176,7 +176,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
 </section>
 ```
  
-`kebab-case` is more readable then `camelCase` and `under_score`.
+`kebab-case` is more readable then `camelCase` and `snake_case`.
  
 ----
 ### Meaningful, short names of classes  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
