@@ -56,7 +56,10 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead)
   1. [Wrapping Up](#wrapping-up)
  
-
+ 
+ ###
+**[Back to top](#table-of-contents)**
+## Code styling
 
 ## File Structure
 
@@ -204,10 +207,6 @@ Try to use common names of classes instead of writing content specific names. It
   <div class="bg-white"></div>
 </div>
 ```
-
-###
-**[Back to top](#table-of-contents)**
-## Code styling
  
 ### Remove type attributes  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
