@@ -15,14 +15,14 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
 ## Table of Contents
 
+  1. [Code styling](#code-styling)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   1. [File structure](#file-structure)
-  1. [W3C](#w3c)  ![W3C](https://img.shields.io/badge/-W3C-1f5f98.svg)
+  1. [W3C](#w3c)  
   1. [Code validation](#code-validation--)
   1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)
-  1. [Naming](#naming)  ![Naming](https://img.shields.io/badge/-Naming-1477d4.svg)
+  1. [Naming](#naming)  
   1. [kebab-case names](#kebab-case-names--)
   1. [Meaningful, short names of classes](#meaningful-short-names-of-classes--)
-  1. [Code styling](#code-styling)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   1. [Remove type attributes](#remove-type-attributes--)
   1. [Specific classes](#use-specific-classes-when-necessary--)
   1. [Add a class to the parent element](#add-a-class-to-the-parent-element--)
