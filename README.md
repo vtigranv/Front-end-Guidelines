@@ -1046,7 +1046,7 @@ Now we can assign classes to an element to remove all borders or some borders.
 </div>
 ```
 ```css
-border-example2 {
+.border-example2 {
   > span {
     width: 100px;
     height: 100px;
