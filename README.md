@@ -921,7 +921,7 @@ Some developers avoid changing variables.scss, thinking they will still be able 
 ###### Bad Code
 
 ```css
-navbar {
+.navbar {
   padding: 20px 10px;
 }
 .carousel-indicators {
