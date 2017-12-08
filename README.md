@@ -66,10 +66,6 @@ If you are going to develop a big app, then you need to take care of the file st
 
 ![Good example of file structure in SCSS](https://raw.githubusercontent.com/vtigranv/Front-end-Guidelines/master/assets/file-structure.png)
 
-###
-**[Back to top](#table-of-contents)**
- 
- ## W3C
 
 ### Code validation  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
@@ -152,11 +148,6 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  ```html
  <img src="demo.jpg" alt="This is placeholder of the image">
  ``` 
- 
- ###
- **[Back to top](#table-of-contents)**
-
- ## Naming
   
  ### Kebab-case names  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
  
