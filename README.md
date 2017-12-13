@@ -92,7 +92,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
     </header>
     <p>All content goes here</p>
   </details>
-  **CSS**
+  <!-- CSS -->
   p {
     font: 400 inherit/1.125 serif;
   }
