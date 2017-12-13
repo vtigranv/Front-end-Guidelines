@@ -17,7 +17,6 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
   ### Code styling  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   1. [File structure](#file-structure)
-  1. [W3C](#w3c)  
   1. [Code validation](#code-validation--)
   1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)
   1. [kebab-case names](#kebab-case-names--)
