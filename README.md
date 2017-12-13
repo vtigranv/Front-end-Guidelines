@@ -20,7 +20,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [W3C](#w3c)  
   1. [Code validation](#code-validation--)
   1. [Alternative tag for image](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)
-  ### [Naming](#naming)  
+  1. [Naming](#naming)  
   1. [kebab-case names](#kebab-case-names--)
   1. [Meaningful, short names of classes](#meaningful-short-names-of-classes--)
   1. [Remove type attributes](#remove-type-attributes--)
