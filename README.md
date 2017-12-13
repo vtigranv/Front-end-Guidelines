@@ -558,7 +558,7 @@ The new tags give you more expressive freedom and to standardize common elements
 Bottom line: Learn and use new elements in HTML5. It’s well worth the effort!
 
 ###
-**[Back to top](#table-of-contents)**
+**[🔝 Back to top](#table-of-contents)**
 ## CSS
 
 
@@ -826,7 +826,7 @@ p {
 ```
 
 ###
-**[Back to top](#table-of-contents)**
+**[🔝 Back to top](#table-of-contents)**
 ## Bootstrap
   
 ### Use Bootstrap classes as much as possible  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
