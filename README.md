@@ -101,7 +101,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
 
-###### ✓ Good Code
+###### ✅ Good Code
 
   ```html
   <figure>
