@@ -132,7 +132,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
   
-**[🔝 Back to top](#table-of-contents)**
+**[🔝 ](#table-of-contents)**
 ###
 ######
 ----
@@ -174,7 +174,7 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
  
 `kebab-case` is more readable then `camelCase` and `snake_case`.
 ###
-**[🔝 Back to top](#table-of-contents)**
+**[🔝 ](#table-of-contents)**
 ###
 ### 
 ----
