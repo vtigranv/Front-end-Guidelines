@@ -16,7 +16,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 ## Table of Contents
 
   ### Code styling  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
-  1. [File structure](#file-structure)
+  1. [File structure](#file-structure--)
   1. [Code validation](#code-validation--)
   1. [Alternative tag of images](#use-alternative-text-on-img-tags-for-clean-code-principles-validity--)
   1. [kebab-case names](#kebab-case-names--)
@@ -58,7 +58,8 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
  ###
 ## Code styling
 
-## File Structure
+### File Structure  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+
 
 If you are going to develop a big app, then you need to take care of the file structure. It can, or rather should, look like this:
 
