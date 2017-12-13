@@ -43,7 +43,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Specific rules](#use-specific-rules--) 
   1. [Shorthand properties and values](#use-shorthand-properties-and-values--) 
   1. [em instead of px](#em-instead-of-px-for-line-height--)  
-  1. [normalize.css--](#dont-use-resetcss-use-normalizecss-instead)
+  1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead--)
   ### Bootstrap  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible--)  
   1. [One parent item in SCSS ](#use-parent-item-just-once-in-scss--)  
