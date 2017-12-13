@@ -72,7 +72,6 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
 ###### ⚠ Bad Code
 
   ```
-  `html`
   <figure>
     <div>
       <img src="demo.jpg" alt="">
@@ -93,7 +92,8 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
     </header>
     <p>All content goes here</p>
   </details>
-  `css`
+  ```
+  ```css
   p {
     font: 400 inherit/1.125 serif;
   }
