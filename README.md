@@ -49,7 +49,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Customizing properly framework](#customize-your-framework-properly--)
   1. [.container fixed width](#dont-overwrite-container-width--)  
   1. [Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css--)  
-  1. [Same value of col-sm-X](#remove-col-md-x-and-col-lg-x-if-col-sm-x-has-same-value-for-x--) 
+  1. [Same value for col-sm-X](#remove-col-md-x-and-col-lg-x-if-col-sm-x-has-same-value-for-x--) 
   1. [Use of .col-xs-12](#dont-use-col-xs-12--) 
   1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead)
   1. [Wrapping Up](#wrapping-up)
