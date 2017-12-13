@@ -69,9 +69,10 @@ If you are going to develop a big app, then you need to take care of the file st
 
 Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators
 
-###### ⚠ Bad Code
 
-  ```
+
+  ```html
+  ###### ⚠ Bad Code
   <figure>
     <div>
       <img src="demo.jpg" alt="">
