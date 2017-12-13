@@ -131,6 +131,11 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
     font-family: serif;
   }
   ```
+  
+###
+**[🔝 Back to top](#table-of-contents)**
+###
+###
 ----
 ### Use alternative text on `<img>` tags for clean code principles validity  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   
