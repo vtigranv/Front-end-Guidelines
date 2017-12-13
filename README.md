@@ -22,7 +22,6 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [kebab-case names](#kebab-case-names--)
   1. [Meaningful, short names of classes](#meaningful-short-names-of-classes--)
   1. [Type attributes](#remove-type-attributes--)
-  1. [Specific classes](#use-specific-classes-when-necessary--)
   1. [Parent element classes](#add-a-class-to-the-parent-element--)
   1. [Zero values without units](#drop-units-from-zero-values--)
   1. [Use of hr tag](#use-an-hr-tag--)
@@ -42,7 +41,8 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Look for existing CSS rules and variables](#look-for-existing-css-rules-and-variables-before-writing-new-ones--) 
   1. [Specific rules](#use-specific-rules--) 
   1. [Shorthand properties and values](#use-shorthand-properties-and-values--) 
-  1. [em instead of px](#em-instead-of-px-for-line-height--)  
+  1. [em instead of px](#em-instead-of-px-for-line-height--) 
+  1. [Specific classes](#use-specific-classes-when-necessary--)
   1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead--)
   ### Bootstrap  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible--)  
@@ -229,33 +229,7 @@ Don’t write type attributes for stylesheets and script in HTML5. They are not 
 ###
 ###
 ----
-### Use specific classes when necessary  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
-Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
-
-###### ⚠ Bad Code
-
-```html
-section aside h1 span {
-  margin-left: 25%;
-}
-```
-  
-###### 👍 Good Code
-
-```html
-.left-offset {
-  margin-left: 25%;
-}
-```
-
-While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
-
-###
-**[🔝](#table-of-contents)**
-###
-###
-----
 ### Add a class to the parent element  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
 
 If you need to use the same block but with different styling, try to keep the HTML as untouched as possible. Just add one class to the parent element and apply all new stylings to the children of that class in CSS.
@@ -914,6 +888,35 @@ p {
 ###
 
 ----
+
+### Use specific classes when necessary  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
+
+Keep the CSS selector more specific and select the elements you need; try not to mention their parents if not necessary. It will allow the code to render faster and remove any managing obstacles in future.
+
+###### ⚠ Bad Code
+
+```html
+section aside h1 span {
+  margin-left: 25%;
+}
+```
+  
+###### 👍 Good Code
+
+```html
+.left-offset {
+  margin-left: 25%;
+}
+```
+
+While applying a class to the targeted element may create more code within HTML, it will allow the code to render faster and will remove any managing obstacles.
+
+###
+**[🔝](#table-of-contents)**
+###
+###
+----
+
 ### Don’t use `reset.css`; use `normalize.css` instead  ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
 
 If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
