@@ -43,6 +43,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Specific rules](#use-specific-rules--) 
   1. [Shorthand properties and values](#use-shorthand-properties-and-values--) 
   1. [em instead of px](#em-instead-of-px-for-line-height--)  
+  1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead)
   ### Bootstrap  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible--)  
   1. [One parent item in SCSS ](#use-parent-item-just-once-in-scss--)  
@@ -51,7 +52,6 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Bootstrap 4 classes](#use-bootstrap-4-classes-and-write-less-css--)  
   1. [Same value for col-X](#remove-col-md-x-and-col-lg-x-if-col-sm-x-has-same-value-for-x--) 
   1. [Use of .col-xs-12](#dont-use-col-xs-12--) 
-  1. [normalize.css](#dont-use-resetcss-use-normalizecss-instead)
   1. [Wrapping Up](#wrapping-up)
  
  
@@ -912,6 +912,17 @@ p {
 **[🔝 ](#table-of-contents)**
 ###
 ###
+
+----
+### Don’t use `reset.css`; use `normalize.css` instead
+
+If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
+
+###
+**[🔝 ](#table-of-contents)**
+###
+###
+
 ## Bootstrap
   
 ### Use Bootstrap classes as much as possible  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
@@ -1262,10 +1273,6 @@ Don’t use `.col-xs-12` because if no .col-xs-X is assigned, then it will be `.
 **[🔝](#table-of-contents)**
 ###
 ###
-----
-### Don’t use `reset.css`; use `normalize.css` instead
-
-If you are using Bootstrap, then `normalize.css` is already included there, no need to include it twice.
 
 ----
 ### Follow guidelines, even if they’re not a best practice
