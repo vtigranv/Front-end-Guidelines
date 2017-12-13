@@ -44,7 +44,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Specific rules](#use-specific-rules--) 
   1. [Shorthand properties and values](#use-shorthand-properties-and-values--) 
   1. [em instead of px for line height](#em-instead-of-px-for-line-height--)  
-  1. [Bootstrap](#bootstrap)  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
+  ### Bootstrap  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7142A8.svg)
   1. [More Bootstrap classes](#use-bootstrap-classes-as-much-as-possible--)  
   1. [Use parent item just once in SCSS ](#use-parent-item-just-once-in-scss--)  
   1. [Customize your framework properly](#customize-your-framework-properly--)
