@@ -24,7 +24,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Type attributes](#remove-type-attributes--)
   1. [Specific classes](#use-specific-classes-when-necessary--)
   1. [Parent element classes](#add-a-class-to-the-parent-element--)
-  1. [Drop unites from zero values](#drop-units-from-zero-values--)
+  1. [Zero values without units](#drop-units-from-zero-values--)
   1. [Use of hr tag](#use-an-hr-tag--)
   1. [CSS height and width](#css-without-fixed-height-and-width--) 
   ### HTML ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
