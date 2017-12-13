@@ -132,10 +132,6 @@ Try to always check your code with [HTML](https://validator.w3.org/) and [CSS](h
   }
   ```
   
-###
-**[🔝 Back to top](#table-of-contents)**
-###
-###
 **[🔝 Back to top](#table-of-contents)**
 ###
 ######
