@@ -15,7 +15,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
 
 ## Table of Contents
 
-  ### [Code styling](#code-styling)  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
+  ### Code styling  ![Code Styling](https://img.shields.io/badge/-Code%20Styling-green.svg)
   1. [File structure](#file-structure)
   1. [W3C](#w3c)  
   1. [Code validation](#code-validation--)
@@ -29,7 +29,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   1. [Drop unites from zero values](#drop-units-from-zero-values--)
   1. [Use an hr tag](#use-an-hr-tag--)
   1. [CSS without fixed height and width](#css-without-fixed-height-and-width--) 
-  ### [HTML](#html)  ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
+  ### HTML ![HTML](https://img.shields.io/badge/-HTML-e24e30.svg)
   1. [Markup based HTML](#try-to-have-a-front-end-that-is-as-markup-based-as-possible--)  
   1. [Unnecessary wrappers in HTML](#avoid-using-unnecessary-wrappers-in-html--) 
   1. [Atomic classes](#use-atomic-classes-for-styling--) 
