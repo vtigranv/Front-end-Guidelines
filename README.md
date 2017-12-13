@@ -36,7 +36,7 @@ Quoted from an old but still relevant blog post: https://blogs.msdn.microsoft.co
   ### CSS ![CSS](https://img.shields.io/badge/-CSS-1572B6.svg)
   1. [A > B selector](#a--b-selector--)
   1. [CSS preprocessors](#use-a-css-preprocessor--) 
-  1. [Group, selectors or @extend in SASS](#use-extend-in-sass-or-group-selectors--)
+  1. [Group selectors or @extend in SASS](#use-extend-in-sass-or-group-selectors--)
   1. [rem units](#use-rem-units--) 
   1. [Before writing a CSS rule think about which element will be affected](#before-writing-a-css-rule-think-about-which-element-will-be-affected--)
   1. [Look for existing CSS rules and variables](#look-for-existing-css-rules-and-variables-before-writing-new-ones--) 
